@@ -1,0 +1,102 @@
+body
+{
+	cursor: default;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+						  supported by Chrome and Opera */
+	 height:100vh;					  
+	
+}
+
+#dashboard_header
+{
+	width: 100%;
+	height: 80px;
+    position: fixed;
+	cursor: pointer;
+	z-index: 10;
+}
+
+a
+{
+	color: #fff;
+	text-align: center;
+}
+
+a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.header_spacer
+{
+	height: 80px;
+}
+
+.category_spacer
+{
+	height: 120px;
+}
+
+#dashboard_header
+{
+	background-color: darkslategrey;
+}
+
+.dashboard_text
+{
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 1px;
+	color: #fff;
+	display: inline-block;
+}
+
+#dashboard_header_container
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	opacity: 1;
+}
+
+#dashboard_header_navigator
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 0;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 23px;
+	font-size: 30px;
+}
+
+#dashboard_creator
+{
+	margin-left: 52px;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #F5F5F5;
+}
+
+#dashboard_title
+{
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 0px;
+	font-size: 25px;
+}
+
+#map_and_bubble_container
+{
+	margin:auto;
+	text-align:center;
+}
+

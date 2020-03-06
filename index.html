@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+	<title>A Rubbish Project</title>
+	<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dash-style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+
+</head>
+
+<body style="background-color:darkslategrey;">
+
+	<!-- d3 package import -->
+	<script src="https://d3js.org/d3.v4.min.js"></script> <!--bubble & map -->  
+	<script src="https://d3js.org/queue.v1.min.js"></script> <!-- map --> 
+	<script src="https://d3js.org/colorbrewer.v1.min.js"></script>	<!-- map --> 
+	
+  
+	<!-- load all visualization -->
+	<script>
+	$(document).ready(function(){	   
+	   $('#map_and_bubble_container').load("map-bubble.html");
+	});
+	</script>
+
+	<!-- title header -->
+	<div id="dashboard_header" >
+		<div id ="dashboard_header_container">
+			<div id="dashboard_title" class="dashboard_text" ><a>A Malaysian Rubbish Project</a></div>
+			<br>
+			<div id="dashboard_creator" class="dashboard_text"><a>SWCorp Recycled Waste Produced from 2015 to 2017 </a></div>
+		</div>
+	</div>
+	
+	<div class="header_spacer"></div>
+	
+	<!-- container -->	
+	<!-- map and bubble -->
+	<div id="map_and_bubble_container" class="chart_container" >
+	</div>
+			
+
+</body>
+</html>
